@@ -19,7 +19,7 @@ Tells Python explicitly that you want that directory to behave as a module.
 ## \_\_main\_\_.py
 Runs when you call ```python -m <module_name>``` where module_name is a directory with an ```__init__.py``` file.
 
-## Learn what if __name__ == '__main__' means, and why it's important
+## Learn what if \_\_name__ == '\_\_main\_\_' means, and why it's important
 A great explanation can be found [here](https://www.youtube.com/watch?v=sugvnHA7ElY).
 
 ## Importing your scripts/modules
