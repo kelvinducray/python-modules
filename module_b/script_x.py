@@ -1,3 +1,4 @@
+# NOTE: We are using our other module here...
 from module_a.script_y import double
 from module_a.script_z import halve
 

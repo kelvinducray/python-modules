@@ -1,17 +1,23 @@
 # Python Modules
 If you are not careful when setting up your project, you may end up facing difficulties when you try to import modules. This repository aims to provide practical examples of how importing modules in Python works, so that importing your scripts becomes simple.
 
+## Running the examples
+The two different ways of running the examples are as follows:
+ - ```python -m module_a```
+ - ```python -m module_b <numeric arg. #1> <numeric arg. #2>```
+ - Also be sure to check out ```Example_Notebook.ipynb```
+
 ## Where you run your script from matters
 If you are using an IDE always set your working directory to the base directory of your project. Then place all of your scripts into their own module, and always execute the python command in the base directory of your project. This consistency with ensure predictable behaviour when you are running your project, using relative file paths and importing your own scripts.
 
 ## Stop using python <script_name>.py
-Use python -m <module_name> in the command line.
+Use ```python -m <module_name>``` in the command line.
 
 ## \_\_init\_\_.py
 Tells Python explicitly that you want that directory to behave as a module.
 
 ## \_\_main\_\_.py
-Runs when you call python -m <module_name> where module_name is a directory with an \_\_init\_\_.py file.
+Runs when you call ```python -m <module_name>``` where module_name is a directory with an ```__init__.py``` file.
 
 ## Learn what if __name__ == '__main__' means, and why it's important
 A great explanation can be found [here](https://www.youtube.com/watch?v=sugvnHA7ElY).
